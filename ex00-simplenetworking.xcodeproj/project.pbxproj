@@ -11,6 +11,15 @@
 		875BAC6E2980D32D00EB75C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC6D2980D32D00EB75C9 /* ContentView.swift */; };
 		875BAC702980D32E00EB75C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875BAC6F2980D32E00EB75C9 /* Assets.xcassets */; };
 		875BAC732980D32E00EB75C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875BAC722980D32E00EB75C9 /* Preview Assets.xcassets */; };
+		875BAC7A2980DCB800EB75C9 /* SetTitleBlockingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC792980DCB800EB75C9 /* SetTitleBlockingView.swift */; };
+		875BAC802981BC4E00EB75C9 /* SingleApprenticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC7F2981BC4E00EB75C9 /* SingleApprenticeView.swift */; };
+		875BAC822981BC7C00EB75C9 /* ManyApprenticesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC812981BC7C00EB75C9 /* ManyApprenticesView.swift */; };
+		875BAC842981BC8500EB75C9 /* ApprenticeshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC832981BC8500EB75C9 /* ApprenticeshipViewModel.swift */; };
+		875BAC862981BC8E00EB75C9 /* ApprenticeshipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC852981BC8E00EB75C9 /* ApprenticeshipService.swift */; };
+		875BAC892981E0E100EB75C9 /* ClassroomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC882981E0E100EB75C9 /* ClassroomService.swift */; };
+		875BAC8B2981E15D00EB75C9 /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC8A2981E15D00EB75C9 /* Classroom.swift */; };
+		875BAC8D2981E17C00EB75C9 /* ClassroomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC8C2981E17C00EB75C9 /* ClassroomsView.swift */; };
+		875BAC8F2981E18300EB75C9 /* ClassroomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BAC8E2981E18300EB75C9 /* ClassroomsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		875BAC6D2980D32D00EB75C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		875BAC6F2980D32E00EB75C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875BAC722980D32E00EB75C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		875BAC792980DCB800EB75C9 /* SetTitleBlockingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTitleBlockingView.swift; sourceTree = "<group>"; };
+		875BAC7F2981BC4E00EB75C9 /* SingleApprenticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleApprenticeView.swift; sourceTree = "<group>"; };
+		875BAC812981BC7C00EB75C9 /* ManyApprenticesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyApprenticesView.swift; sourceTree = "<group>"; };
+		875BAC832981BC8500EB75C9 /* ApprenticeshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprenticeshipViewModel.swift; sourceTree = "<group>"; };
+		875BAC852981BC8E00EB75C9 /* ApprenticeshipService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprenticeshipService.swift; sourceTree = "<group>"; };
+		875BAC882981E0E100EB75C9 /* ClassroomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomService.swift; sourceTree = "<group>"; };
+		875BAC8A2981E15D00EB75C9 /* Classroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
+		875BAC8C2981E17C00EB75C9 /* ClassroomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomsView.swift; sourceTree = "<group>"; };
+		875BAC8E2981E18300EB75C9 /* ClassroomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,9 @@
 			children = (
 				875BAC6B2980D32D00EB75C9 /* ex00_simplenetworkingApp.swift */,
 				875BAC6D2980D32D00EB75C9 /* ContentView.swift */,
+				875BAC7D2981BBAD00EB75C9 /* Blocking Main Thread */,
+				875BAC7E2981BBBF00EB75C9 /* Apprentices */,
+				875BAC872981E0C800EB75C9 /* Classrooms */,
 				875BAC6F2980D32E00EB75C9 /* Assets.xcassets */,
 				875BAC712980D32E00EB75C9 /* Preview Content */,
 			);
@@ -65,6 +86,36 @@
 				875BAC722980D32E00EB75C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		875BAC7D2981BBAD00EB75C9 /* Blocking Main Thread */ = {
+			isa = PBXGroup;
+			children = (
+				875BAC792980DCB800EB75C9 /* SetTitleBlockingView.swift */,
+			);
+			path = "Blocking Main Thread";
+			sourceTree = "<group>";
+		};
+		875BAC7E2981BBBF00EB75C9 /* Apprentices */ = {
+			isa = PBXGroup;
+			children = (
+				875BAC852981BC8E00EB75C9 /* ApprenticeshipService.swift */,
+				875BAC832981BC8500EB75C9 /* ApprenticeshipViewModel.swift */,
+				875BAC7F2981BC4E00EB75C9 /* SingleApprenticeView.swift */,
+				875BAC812981BC7C00EB75C9 /* ManyApprenticesView.swift */,
+			);
+			path = Apprentices;
+			sourceTree = "<group>";
+		};
+		875BAC872981E0C800EB75C9 /* Classrooms */ = {
+			isa = PBXGroup;
+			children = (
+				875BAC8A2981E15D00EB75C9 /* Classroom.swift */,
+				875BAC882981E0E100EB75C9 /* ClassroomService.swift */,
+				875BAC8E2981E18300EB75C9 /* ClassroomsViewModel.swift */,
+				875BAC8C2981E17C00EB75C9 /* ClassroomsView.swift */,
+			);
+			path = Classrooms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875BAC8D2981E17C00EB75C9 /* ClassroomsView.swift in Sources */,
+				875BAC7A2980DCB800EB75C9 /* SetTitleBlockingView.swift in Sources */,
+				875BAC802981BC4E00EB75C9 /* SingleApprenticeView.swift in Sources */,
+				875BAC822981BC7C00EB75C9 /* ManyApprenticesView.swift in Sources */,
+				875BAC842981BC8500EB75C9 /* ApprenticeshipViewModel.swift in Sources */,
 				875BAC6E2980D32D00EB75C9 /* ContentView.swift in Sources */,
+				875BAC892981E0E100EB75C9 /* ClassroomService.swift in Sources */,
 				875BAC6C2980D32D00EB75C9 /* ex00_simplenetworkingApp.swift in Sources */,
+				875BAC8F2981E18300EB75C9 /* ClassroomsViewModel.swift in Sources */,
+				875BAC862981BC8E00EB75C9 /* ApprenticeshipService.swift in Sources */,
+				875BAC8B2981E15D00EB75C9 /* Classroom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
