@@ -31,7 +31,7 @@ struct ApprenticeshipService {
         return name
     }
     
-    public func fetchManyApprentices(count: Int) async throws -> [String] {
+    public func fetchManyApprentices(count: Int?) async throws -> [String] {
         // TODO: Implement this method
         return []
     }
