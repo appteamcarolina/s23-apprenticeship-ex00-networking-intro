@@ -7,6 +7,15 @@
 
 import Foundation
 
+@MainActor
 class ClassroomsViewModel: ObservableObject {
+    private let service = ClassroomService()
     
+    @Published var classrooms: [Classroom] = []
+    @Published var count: Int? = nil
+    @Published var errorMessage: String? = nil
+    
+    func fetchClassrooms() {
+        // TODO: Implement this method
+    }
 }

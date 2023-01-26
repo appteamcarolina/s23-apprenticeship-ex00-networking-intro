@@ -13,6 +13,6 @@ struct ClassroomService {
     
     public func fetchClassrooms(count: Int) async throws -> Classroom {
         // TODO: Implement this method
-        return Classroom()
+        return Classroom(id: UUID())
     }
 }
