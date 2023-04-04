@@ -11,8 +11,8 @@ struct ClassroomService {
     private let session = URLSession.shared
     private let decoder = JSONDecoder()
     
-    public func fetchClassrooms(count: Int?) async throws -> Classroom {
+    public func fetchClassrooms(count: Int?) async throws -> [Classroom] {
         // TODO: Implement this method
-        return Classroom(id: UUID())
+        return []
     }
 }
