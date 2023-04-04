@@ -24,12 +24,12 @@ struct ClassroomsView: View {
                 }
             }
                 
-            Button("Fetch Apprentices") {
+            Button("Fetch Classrooms") {
                 vm.fetchClassrooms()
             }
             
             if !vm.classrooms.isEmpty {
-                Section("Apprentice Name") {
+                Section("Classrooms") {
                     ForEach(vm.classrooms) { classroom in
                         VStack(alignment: .leading) {
                             Text("\(classroom.building) \(classroom.number)")
@@ -50,7 +50,7 @@ struct ClassroomsView: View {
                 }
             }
         }
-        .navigationTitle("Many Apprentices")
+        .navigationTitle("Classrooms")
         .animation(.default, value: vm.count)
         .animation(.default, value: canChangeCount.wrappedValue)
     }
